@@ -1,0 +1,186 @@
+/* Global Header */
+body{
+    overflow-x: hidden;
+}
+
+#admin i{
+    margin-left: 118px;
+    font-size: 80px;
+    
+}
+.global-header {
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.global-header img.logo {
+    max-width: 120px;
+    vertical-align: middle;
+}
+
+.global-header h2 {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 24px;
+    color: blue;
+}
+
+/* New Heading below Global Header */
+.page-heading {
+   /* background:rgb(237, 237, 238); */
+   border-radius: 10px;
+   font-family: 'arial', serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 150px 0 20px;
+    border-color: #fff;
+    /*90px top margin to clear fixed header*/
+}
+
+/* Global Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(5, 21, 66, 0.95);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+    color: white;
+    margin-top: 250px;
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+/* Content: adds margin to avoid overlap with fixed header */
+.content {
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+/* Full-page background */
+body {
+    font-family: Arial, sans-serif;
+    background: url('library-pica.png') no-repeat center center fixed;
+    /* background:#f4f4f4; */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic Module (Dabba) styling */
+.module {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ }
+
+/* Specifically reduce vertical space for Add New Book module */
+ .add-book-module {
+    padding: 5px;
+    /* Decreased padding for a shorter height */
+ }
+
+/* Row container for side-by-side modules */
+ .row-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+ }
+
+/* Modules inside a row container take about 45% of the width */
+ .row-container>.module {
+    flex: 1 1 45%;
+    max-width: 45%;
+ }
+
+/* Admin Login Container */
+ .container {
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ } 
+
+/* Module Titles */
+ h3 {
+    margin: 0 0 10px 0;
+    color: black;
+    text-align: center;
+ }
+
+/* Input fields */
+ input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+ }
+
+/* Button Styling: fixed width and smaller height */
+ button {
+    background: rgb(48, 156, 21);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 8px;
+    font-size: 16px;
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+ }
+
+ button:hover {
+    /* background: #0056b3; */
+    background: rgba(5, 21, 66, 0.95)
+ }
+
+ .error {
+    color: red;
+    font-size: 14px;
+    display: none;
+ }
+
+/* Table Styling with fixed layout */
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-top: 10px;
+ }
+
+ th,
+ td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+ }
+
+ th {
+    background: #333;
+    color: #fff;
+ }
+
+/* Search Bar Styling */
+ .search-container {
+    margin-bottom: 10px;
+ } 
+
+ .search-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+ }
